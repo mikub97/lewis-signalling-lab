@@ -56,8 +56,8 @@ class Receiver:
 # ── Import the scaffolded classes ─────────────────────────────────────────────
 
 from game_server import GameServer
-from sender_agent_solved import NetworkSender
-from receiver_agent_solved import NetworkReceiver
+from signalling.network_game._sender_agent_solved import NetworkSender
+from signalling.network_game._receiver_agent_solved import NetworkReceiver
 
 # ── Patch the task methods (simulating a completed student submission) ─────────
 
